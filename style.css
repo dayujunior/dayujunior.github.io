@@ -1,0 +1,69 @@
+.jumbotron {
+  padding-top: 6rem;
+  background: url(img/bg.png);
+  background-size: 100% 90%;
+  color: #00ffff;
+}
+
+.contact {
+  background: linear-gradient(-10deg, aqua, #00ff00);
+  color: #000;
+  border-radius: 20px;
+  border: none;
+}
+
+.contact:hover {
+  background: linear-gradient(-10deg, aqua, red);
+  color: #fff;
+}
+
+.bg {
+  background: linear-gradient(-100deg, yellow, red, aqua, #00ff00);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.jumbotron p {
+  color: #fff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#galery {
+  background-color: #0c0033;
+}
+
+#galery h2 {
+  color: #00ffff;
+}
+
+#galery a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#galery a:hover {
+  color: #00ffff;
+}
+
+.card {
+  background-color: #343a40;
+  color: #00ffff;
+}
+
+footer {
+  background-color: #0c0033;
+}
